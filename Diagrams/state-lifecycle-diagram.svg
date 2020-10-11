@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="230px" preserveAspectRatio="none" style="width:760px;height:230px;" version="1.1" viewBox="0 0 760 230" width="760px" zoomAndPan="magnify"><defs><filter height="300%" id="fkxao7oidoq31" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="88" cy="16" fill="#000000" filter="url(#fkxao7oidoq31)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><g id="Egg"><rect fill="#FEFECE" filter="url(#fkxao7oidoq31)" height="50.2656" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="162" x="7" y="87"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="169" y1="113.2969" y2="113.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="27" x="74.5" y="104.9951">Egg</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="142" x="12" y="129.4355">Chingu starts as an egg</text></g><g id="Child"><rect fill="#FEFECE" filter="url(#fkxao7oidoq31)" height="50.2656" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="120" x="335" y="87"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="335" x2="455" y1="113.2969" y2="113.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="377" y="104.9951">Child</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="100" x="340" y="129.4355">Nuture and grow</text></g><g id="Adult"><rect fill="#FEFECE" filter="url(#fkxao7oidoq31)" height="50.2656" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="118" x="628" y="87"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="628" x2="746" y1="113.2969" y2="113.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="668" y="104.9951">Adult</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="633" y="129.4355">Work until death</text></g><ellipse cx="687" cy="208" fill="none" filter="url(#fkxao7oidoq31)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="687.5" cy="208.5" fill="#000000" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/><!--MD5=[001bb836077729b990e8986e0266a9c8]
+link *start to Egg--><path d="M88,26.013 C88,38.698 88,62.409 88,81.57 " fill="none" id="*start-to-Egg" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="88,86.84,92,77.84,88,81.84,84,77.84,88,86.84" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[60adb1d9f1c5c0734144470825a655a0]
+link Egg to Child--><path d="M169.062,112 C219.283,112 282.926,112 329.859,112 " fill="none" id="Egg-to-Child" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="334.921,112,325.921,108,329.921,112,325.921,116,334.921,112" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="187.5" y="105.0669">Incubates for 1 hour</text><!--MD5=[91013ccf59a59d68fcf8e91fb1f9984d]
+link Child to Adult--><path d="M455.149,112 C504.055,112 572.895,112 622.85,112 " fill="none" id="Child-to-Adult" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="627.928,112,618.928,108,622.928,112,618.928,116,627.928,112" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="136" x="473.5" y="105.0669">Incubates for 2 hours</text><!--MD5=[cae857d2d313926c64ea3268197b1fc2]
+link Adult to *end--><path d="M687,137.2073 C687,154.8423 687,178.1261 687,192.8351 " fill="none" id="Adult-to-*end" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="687,197.8399,691,188.8399,687,192.8399,683,188.8399,687,197.8399" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[20b7ebade055cbb08f204bf7de819e35]
+@startuml
+[*] - -> Egg
+Egg: Chingu starts as an egg
+
+Egg-> Child: Incubates for 1 hour
+Child: Nuture and grow
+
+Child-> Adult: Incubates for 2 hours
+Adult: Work until death
+Adult- -> [*]
+@enduml
+
+PlantUML version 1.2020.19beta4(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
